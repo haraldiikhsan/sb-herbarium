@@ -14,7 +14,7 @@
                 </div>
                 <div class="card-body">
                   <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="<?php echo base_url('img/undraw_posting_photo.svg') ?>" alt="">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="<?php echo base_url('img/herbarium-homepage.jpg') ?>" alt="">
                   </div>
                   <h5 class="font-weight-bold mb-2 text-gray-800">Welcome to the Herbarium Collection Database of the Department of Silviculture IPB</h5>
                   <p class="align-justify">The Herbarium collection at Department of Silviculture, Faculty of Forestry, IPB University (Bogor Agricultural University) approximately 500 specimens, collected from all around Indonesia. Specimens are pressed and dried. Department of Silviculture is committed to making this important collection more accessible to botanists and others, wherever they may be, for use in their own projects: particularly in biodiversity, conservation, sustainable development and systematics. To this end we are building an electronic Herbarium Database containing images of the specimens and information taken from their collection labels.</p>
