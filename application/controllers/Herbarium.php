@@ -129,7 +129,18 @@ class Herbarium extends CI_Controller {
             $output .= '
             <div class="form-group mb-1">
                 <label class="lbl-name" for="catatan">Nama Spesies</label>
-                <div class="form-view"><i>'.$row["species"].'</i></div>
+                <div class="form-view">';
+                $row["species"] = explode(' ', $row["species"], 3);
+                    foreach ($row["species"] as $key => $value) {
+                        if ($key < 2) {
+                            $output .= '<i>'.$value.' </i>';    
+                        }
+                        else{
+                            $output .= $value.' '; 
+                        }
+                    }
+            $output .= '    
+                </div>
             </div>
             <div class="form-group mb-1">
                 <label class="lbl-name" for="catatan">Nama Genus</label>
