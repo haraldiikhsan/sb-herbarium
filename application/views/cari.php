@@ -19,7 +19,20 @@
                       <!-- Illustrations -->
                       <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                          <h6 class="m-0 font-weight-bold text-primary"><i><?= $data['species'] ?></i></h6>
+                          <h6 class="m-0 font-weight-bold text-primary">
+                            <?php $data['species'] = explode(' ', $data['species'], 3);
+                              foreach ($data['species'] as $key => $value){
+                                if($key<2){
+                            ?>
+                                <i><?= $value ?></i>
+                              <?php } 
+                                else{
+                              ?>
+                                <?= $value ?>
+                            <?php } 
+                              }
+                            ?> 
+                          </h6>
                         </div>
                         <div class="card-body">
                           <div class="text-center">

@@ -39,7 +39,20 @@
                   <tbody>
                     <?php foreach ($herbarium as $nama_herbarium) { ?>
                         <tr>
-                          <td><i><?= $nama_herbarium['species'] ?></i></td>
+                          <td>
+                            <?php $nama_herbarium['species'] = explode(' ', $nama_herbarium['species'], 3);
+                              foreach ($nama_herbarium['species'] as $key => $value){
+                                if($key<2){
+                            ?>
+                                <i><?= $value ?></i>
+                              <?php } 
+                                else{
+                              ?>
+                                <?= $value ?>
+                            <?php } 
+                              }
+                            ?> 
+                          </td>
                           <td><?= $nama_herbarium['familia'] ?></td>
                           <td><?= $nama_herbarium['leaf_morphology'] ?></td>
                           <td class="text-center"><?= $nama_herbarium['collection_date'] ?></td>
