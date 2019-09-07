@@ -6,10 +6,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Official Website Herbarium Collection, Department of Silviculture, Faculty of Forestry, IPB University">
+  <meta name="keywords" content="IPB University, Fakultas Kehutanan, Faculty of Forestry, Departemen Silvikultur, Department of Silviculture, Herbarium IPB, Herbarium Collection, Herbarium, Fifi Gus Dwiyanti" />
+
+  <meta property="og:locale" content="id_ID" />
+	<meta property="og:title" content="Herbarium Collection" />
+	<meta property="og:description" content="Official Website Herbarium Collection, Department of Silviculture, Faculty of Forestry, IPB University" />
+	<meta property="og:url" content="http://herbarium.fahutan.ipb.ac.id" />
+	<meta property="og:site_name" content="Herbarium Collection" />
 
   <title>Herbarium</title>
+  <link rel="icon" href="<?php echo base_url('img/logo-ipb.svg') ?>" type="image/svg">
 
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
