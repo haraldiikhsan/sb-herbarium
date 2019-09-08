@@ -37,6 +37,14 @@
     text-align: justify !important;
 }
 
+.text-dot{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 175px;
+    position: absolute;
+}
+
 .form-view{
 	display: block;
     width: 100%;

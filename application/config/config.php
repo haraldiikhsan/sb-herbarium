@@ -25,11 +25,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 // config local mac
-// $config['base_url'] = 'http://localhost:8888/sb-herbarium/'; 
+$config['base_url'] = 'http://localhost:8888/sb-herbarium/'; 
 // Config Hosting Herbarium
 // $config['base_url'] = 'http://herbarium.fahutan.ipb.ac.id/';
 // Config Hosting Local Windows
-$config['base_url'] = 'http://localhost/sb-herbarium/';  
+// $config['base_url'] = 'http://localhost/sb-herbarium/';  
 /*
 |--------------------------------------------------------------------------
 | Index File

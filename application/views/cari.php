@@ -57,7 +57,7 @@
                             <tr>
                               <td>Tipe Habitat</td>
                               <td class="px-3 px-sm-4">:</td>
-                              <td><?= $data['habitat_type'] ?></td>
+                              <td class="text-dot"><?= $data['habitat_type'] ?></td>
                             </tr>
                             <tr>
                               <td>Morfologi</td>
@@ -90,7 +90,7 @@
               else{
             ?>
                 <!-- 404 Error Text -->
-                <div class="text-center">
+                <div class="text-center mb-5">
                   <div class="error mx-auto" data-text="404">404</div>
                   <p class="lead text-gray-800 mb-5">Data Tidak Ditemukan</p>
                   <a href="<?= base_url('') ?>">&larr; Kembali ke Halaman Utama</a>
