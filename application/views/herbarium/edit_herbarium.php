@@ -101,6 +101,10 @@
                           <label class="lbl-edit">Lokasi</label>
                           <textarea type="text" rows=3 id="location" name="location" class="form-control form-control-user form-area" placeholder="Lokasi"><?= $nama_herbarium['location'] ?></textarea>
                       </div>
+                      <div class="form-group">
+                        <label class="lbl-edit">Titik Koordinat</label>
+                        <input class="form-control form-control-user" id="coordinate" name="coordinate" placeholder="Titik Koordinat" value="<?= $nama_herbarium['coordinate'] ?>">
+                    </div>
                     </div>
                     <div class="col-xl-6 col-md-12">
                       <div class="form-group">

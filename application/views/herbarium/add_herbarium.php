@@ -91,6 +91,9 @@
                     <div class="form-group">
                         <textarea type="text" rows=3 id="location" name="location" class="form-control form-control-user form-area" placeholder="Lokasi"></textarea>
                     </div>
+                    <div class="form-group">
+                        <input class="form-control form-control-user" id="coordinate" name="coordinate" placeholder="Titik Koordinat">
+                    </div>
                   </div>
                   <div class="col-xl-6 col-md-12">
                     <div class="form-group">

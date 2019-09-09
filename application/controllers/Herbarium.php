@@ -195,6 +195,10 @@ class Herbarium extends CI_Controller {
             $output .= '
             </div>
             <div class="form-group mb-1">
+                <label class="lbl-name" for="catatan">Titik Koordinat</label>
+                <div class="form-view">'.$row["coordinate"].'</div>
+            </div>
+            <div class="form-group mb-1">
                 <label class="lbl-name" for="catatan">Tipe Habitat</label>
                 <div class="form-view">'.$row["habitat_type"].'</div>
             </div>
